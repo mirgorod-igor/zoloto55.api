@@ -1,5 +1,4 @@
-
-const items = [
+export default [
     {
         url: '',
         description: 'Кольцо 1104742 золото Тиффани цифры',
@@ -65,5 +64,3 @@ const items = [
     }
 
 ]
-
-export default items
