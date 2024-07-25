@@ -1,5 +1,5 @@
 export default {
-    forYou: [
+    forWhom: [
         {
             id: 1,
             name: 'унисекс'
@@ -58,6 +58,20 @@ export default {
         },
         {
             id: 4, name: 'без пробы'
+        }
+    ],
+    brand: [
+        {
+            id: 1, name: 'бренд1'
+        },
+        {
+            id: 2, name: 'бренд2'
+        },
+        {
+            id: 3, name: 'бренд3'
+        },
+        {
+            id: 4, name: 'бренд4'
         }
     ]
 }

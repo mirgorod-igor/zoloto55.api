@@ -1,0 +1,58 @@
+export default [
+    {
+        id: 1,
+        date: '2024-01-03',
+        state: 'new',
+        client: 'Петров Василий',
+        price: 14000,
+        product: 'Золото',
+    },
+    {
+        id: 2,
+        date: '2024-01-03',
+        state: 'new',
+        client: 'Сидоров Александр',
+        price: 14000,
+        product: 'Золото',
+    },
+    {
+        id: 3,
+        date: '2024-01-03',
+        state: 'new',
+        client: 'Иванов Петр',
+        price: 14000,
+        product: 'Золото',
+    },
+    {
+        id: 4,
+        date: '2024-01-03',
+        state: 'wait',
+        client: 'Козлов Степан',
+        price: 14000,
+        product: 'Золото',
+    },
+    {
+        id: 5,
+        date: '2024-01-03',
+        state: 'new',
+        client: 'Петров Василий',
+        price: 14000,
+        product: 'Золото',
+    },
+    {
+        id: 6,
+        date: '2024-01-03',
+        state: 'success',
+        client: 'Федоров Роман',
+        price: 14000,
+        product: 'Золото',
+    },
+    {
+        id: 7,
+        date: '2024-01-03',
+        state: 'new',
+        client: 'Егоров Евгений',
+        price: 14000,
+        product: 'Золото',
+    }
+]

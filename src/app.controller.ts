@@ -1,4 +1,4 @@
-import { Controller, Get, Param, StreamableFile } from '@nestjs/common'
+import { Controller, Get, HttpCode, Param, Post, Res, StreamableFile } from '@nestjs/common'
 
 import { join } from 'path'
 import { createReadStream } from 'fs'
@@ -15,6 +15,11 @@ export class AppController {
 
     }
 
+    @Post('/auth/login')
+    login(@Res({ passthrough: true }) res: Response) {
+        
+    }
+
     @Get('/data')
     list() {
         return data
@@ -24,6 +29,28 @@ export class AppController {
     home() {
         return home
     }
+
+    @Get('/for_whom/list')
+    forWhom() {
+        return data.forWhom
+    }
+
+    @Get('/metal/list')
+    metal() {
+        return data.metal
+    }
+
+    @Get('/proba/list')
+    proba() {
+        return data.proba
+    }
+
+    @Get('/brand/list')
+    brand() {
+        return data.brand
+    }
+
+
 
     @Get('/jewerly/:name')
     jewerly(@Param('name') name: string) {
